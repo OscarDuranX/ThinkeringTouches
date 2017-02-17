@@ -18,6 +18,10 @@
 <script src="node_modules/hammerjs/hammer.min.js"></script>
 <script>
 
+    function delayedInnerHTML(newContent) {
+        output.innerHTML += newContent;
+    }
+
     function report(newContent) {
         var output = document.getElementById('output');
         setTimeout(function() { delayedInnerHTML (newContent)}, 100 );

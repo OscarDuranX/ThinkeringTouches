@@ -37,8 +37,8 @@
       <file leaf-file-name="hammer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hammer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="237">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -191,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487344362406</updated>
-      <workItem from="1487344364338" duration="3725000" />
+      <workItem from="1487344364338" duration="4226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3725000" />
+    <option name="totallyTimeSpent" value="4226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
@@ -247,8 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hammer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="237">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
