@@ -8,22 +8,28 @@
     <title>Document</title>
 </head>
 <body>
+<output id="output"></output>
 
 <canvas id="canvas" width="800" height="800"></canvas>
 
 
 <script>
 
+    function report(newContent) {
+        var output = document.getElementById('output');
+        output.innerHTML += newContent;
+    }
+
     function start() {
-        alert('prova');
+        report('start')
     }
 
     function end() {
-
+        report('end')
     }
 
     function mode() {
-
+        report('mode')
     }
 
     function init(){
