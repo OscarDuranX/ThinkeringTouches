@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>OUTPUT:</h1>
+<output id="output"></output>
+
+<div id="zone"></div>
+
+
+<script src="node_modules/hammerjs/hammer.min.js"></script>
+<script>
+
+    function report(newContent) {
+        var output = document.getElementById('output');
+        setTimeout(function() { delayedInnerHTML (newContent)}, 100 );
+    }
+
+    var zone = document.getElementById('zone');
+
+    var hammerZone = new Hammer(zone);
+
+    hammerZone.on(
+            'swipeleft', function (e) {
+                e.preventDefault();
+                console.log("left");
+            },
+
+            'swiperight', function (e) {
+                e.preventDefault();
+                console.log("right");
+            }
+    )
+
+</script>
+</body>
+</html>

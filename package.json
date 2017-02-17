@@ -1,0 +1,23 @@
+{
+  "name": "ThinkeringTouches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarDuranX/ThinkeringTouches.git"
+  },
+  "keywords": [],
+  "author": "oscarduranx <xoscarduranx@gmail.com> (https://github.com/OscarDuranX)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarDuranX/ThinkeringTouches/issues"
+  },
+  "homepage": "https://github.com/OscarDuranX/ThinkeringTouches#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  }
+}
